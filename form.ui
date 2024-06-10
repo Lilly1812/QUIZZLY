@@ -31,7 +31,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>2</number>
+    <number>4</number>
    </property>
    <widget class="QWidget" name="MAIN">
     <widget class="QFrame" name="frame">
@@ -251,8 +251,8 @@ background-color: rgb(177, 210, 161);</string>
     <widget class="QPushButton" name="library">
      <property name="geometry">
       <rect>
-       <x>120</x>
-       <y>180</y>
+       <x>280</x>
+       <y>170</y>
        <width>281</width>
        <height>270</height>
       </rect>
@@ -275,8 +275,8 @@ background-color: rgb(177, 210, 161);</string>
     <widget class="QPushButton" name="history_teacher">
      <property name="geometry">
       <rect>
-       <x>450</x>
-       <y>180</y>
+       <x>670</x>
+       <y>170</y>
        <width>281</width>
        <height>270</height>
       </rect>
@@ -294,30 +294,6 @@ background-color: rgb(223, 231, 242);</string>
      </property>
      <property name="text">
       <string>HISTORY</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="add">
-     <property name="geometry">
-      <rect>
-       <x>780</x>
-       <y>180</y>
-       <width>281</width>
-       <height>270</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Montserrat Alternates Medium</family>
-       <pointsize>15</pointsize>
-      </font>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(255, 255, 255);
-border:  2px solid rgb(255, 255, 255);
-background-color: rgb(236, 100, 138);</string>
-     </property>
-     <property name="text">
-      <string>ADD</string>
      </property>
     </widget>
     <widget class="QLabel" name="text_hello">
@@ -390,7 +366,6 @@ background-color: rgb(249, 249, 243);</string>
     <zorder>quizzly_2</zorder>
     <zorder>library</zorder>
     <zorder>history_teacher</zorder>
-    <zorder>add</zorder>
     <zorder>text_hello</zorder>
     <zorder>BACK</zorder>
    </widget>
@@ -551,16 +526,16 @@ border : 0px;</string>
      <widget class="QLabel" name="text_question_2">
       <property name="geometry">
        <rect>
-        <x>60</x>
-        <y>90</y>
-        <width>271</width>
-        <height>71</height>
+        <x>100</x>
+        <y>100</y>
+        <width>611</width>
+        <height>61</height>
        </rect>
       </property>
       <property name="font">
        <font>
-        <family>Montserrat Black</family>
-        <pointsize>17</pointsize>
+        <family>Montserrat Alternates Medium</family>
+        <pointsize>13</pointsize>
         <kerning>true</kerning>
        </font>
       </property>
@@ -576,10 +551,10 @@ border : 0px
        <bool>false</bool>
       </property>
       <property name="alignment">
-       <set>Qt::AlignCenter</set>
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
       </property>
       <property name="wordWrap">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="openExternalLinks">
        <bool>false</bool>
@@ -2498,7 +2473,7 @@ border-radius : 0px</string>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLineEdit" name="edit_id_2">
+      <widget class="QLineEdit" name="edit_ID">
        <property name="geometry">
         <rect>
          <x>20</x>
@@ -2527,7 +2502,7 @@ color: rgb(255, 255, 255);</string>
         <string>ID</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="edit_question_2">
+      <widget class="QLineEdit" name="edit_Question">
        <property name="geometry">
         <rect>
          <x>80</x>
